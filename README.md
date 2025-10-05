@@ -51,16 +51,7 @@ Notes and limitations
 - The code contains unsafe input functions (`gets()` and `fflush(stdin)`) and minimal input validation. These should be replaced for production use.
 - The program uses Windows-specific APIs (`getch()`, `system("cls")`, `system("color")`) and is intended for Windows consoles.
 
-Recommended improvements
-------------------------
-- Replace `gets()` with `fgets()` and implement robust input handling and validation.
-- Store records in a text format (CSV/JSON) for portability and easier debugging.
-- Add a return-book feature and checks for duplicate/invalid IDs.
-- Separate file I/O into reusable functions and add tests for the persistence layer.
-
 License
 -------
 No license is included. Add a LICENSE file to specify reuse terms.
-
-If you want, I can make the input handling safe and add a PowerShell build script or convert storage to CSV for easier inspection.
 
